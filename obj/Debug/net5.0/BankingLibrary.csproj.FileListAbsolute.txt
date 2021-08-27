@@ -1,0 +1,11 @@
+D:\ws\BankingApplication\BankingLibrary\bin\Debug\net5.0\BankingLibrary.deps.json
+D:\ws\BankingApplication\BankingLibrary\bin\Debug\net5.0\BankingLibrary.dll
+D:\ws\BankingApplication\BankingLibrary\bin\Debug\net5.0\ref\BankingLibrary.dll
+D:\ws\BankingApplication\BankingLibrary\bin\Debug\net5.0\BankingLibrary.pdb
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\BankingLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\BankingLibrary.AssemblyInfoInputs.cache
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\BankingLibrary.AssemblyInfo.cs
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\BankingLibrary.csproj.CoreCompileInputs.cache
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\BankingLibrary.dll
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\ref\BankingLibrary.dll
+D:\ws\BankingApplication\BankingLibrary\obj\Debug\net5.0\BankingLibrary.pdb
