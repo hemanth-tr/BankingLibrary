@@ -23,7 +23,7 @@ jobs:
         run: dotnet build
         
       - name: cmd
-        run: dir
+        run: dir bin\Debug
 
       # Runs a single command using the runners shell
       - name: Publish NuGet
