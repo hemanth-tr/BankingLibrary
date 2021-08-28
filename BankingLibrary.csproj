@@ -2,7 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Nullable>disable</Nullable>
+    <PackageId>BankingLibrary</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>hemanth-tr</Authors>
+    <PackageDescription>A library!</PackageDescription>
+    <RepositoryUrl>https://github.com/hemanth-tr/BankingLibrary</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
