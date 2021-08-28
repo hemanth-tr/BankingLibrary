@@ -29,4 +29,4 @@ jobs:
           PROJECT_FILE_PATH: BankingLibrary.csproj
           PACKAGE_NAME: BankingLibrary
           NUGET_KEY: ${{ secrets.GITHUB_TOKEN }}
-          NUGET_SOURCE: https://nuget.pkg.github.com/
+          NUGET_SOURCE: https://nuget.pkg.github.com/hemanth-tr
