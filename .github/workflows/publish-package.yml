@@ -23,6 +23,10 @@ jobs:
         run: dotnet build
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: |
-          dir
+      - name: Publish NuGet
+        uses: brandedoutcast/publish-nuget@v2.5.5
+        with:
+          PROJECT_FILE_PATH: BankingLibrary.csproj
+          PACKAGE_NAME: BankingLibrary
+          NUGET_KEY: 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
+          NUGET_SOURCE: https://nuget.pkg.github.com/hemanth-tr/index.json
