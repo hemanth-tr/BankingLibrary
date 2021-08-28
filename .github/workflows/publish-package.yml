@@ -24,9 +24,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Publish NuGet
-        uses: brandedoutcast/publish-nuget@v2.5.5
-        with:
-          PROJECT_FILE_PATH: BankingLibrary.csproj
-          PACKAGE_NAME: BankingLibrary
-          NUGET_KEY: ${{ secrets.GITHUB_TOKEN }}
-          NUGET_SOURCE: https://nuget.pkg.github.com/hemanth-tr
+        run: dotnet nuget push bin\Debug\*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source https://nuget.pkg.github.com/hemanth-tr/index.json
