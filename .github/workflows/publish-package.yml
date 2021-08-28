@@ -21,9 +21,10 @@ jobs:
       
       - name: Build application
         run: dotnet build
+        
+      - name: cmd
+        run: dir
 
       # Runs a single command using the runners shell
       - name: Publish NuGet
-        run: | 
-          dir,
-          dotnet nuget push bin\Debug\BankingLibrary.1.0.0.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source https://nuget.pkg.github.com/hemanth-tr/index.json
+        run: dotnet nuget push bin\Debug\BankingLibrary.1.0.0.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source https://nuget.pkg.github.com/hemanth-tr/index.json
